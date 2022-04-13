@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo {
+
+    float: left;
+    margin-left: 120px;
+    border: 1px solid red;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#menu {
+    float: right;
+    margin-right: 300px;
+    border: 1px solid red;
+    margin-top: 90px;
+}
+
+#navegacao {
+    border: 1px solid red;
+    height: 200px;
+    margin-top: 0;
+    background: rgb(49, 47, 47);
+    border-bottom: 1px solid rgb(6, 99, 37) ;
+    width: 100%;
+    top: 0;
+    
+  
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:link {
+    color: greenyellow
+}
+
+a:visited {
+    color: greenyellow
+}
+
+a:hover {
+    color: black;
+    background: #b9c941;
+}
+
+a:active {
+    color: #535353;
+}
+
+body {
+    clear: both;
+    background-color: rgb(6, 83, 6);
+}
