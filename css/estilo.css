@@ -57,3 +57,25 @@ body {
     clear: both;
     background-color: rgb(6, 83, 6);
 }
+
+#area-principal {
+
+
+
+}
+
+.tema-artigo{
+    margin-left: 50%;
+    
+    margin-top: 50%;
+    margin-bottom: 0;
+    
+
+}
+
+#postagem {
+    border: 1px solid red;
+    padding: 10px;
+    margin-top: 50px;
+    
+}
