@@ -66,10 +66,12 @@ body {
 
 .titulo-artigo{
     color: white;
-    margin-left: 20%;
+    margin-left: 35%;
     margin-top: 20px;
-    margin-right: 20%;
+    margin-right: 30%;
     text-decoration: none;
+    border: 1px solid red;
+    font-size: 30px;
     
 }
 
@@ -78,6 +80,8 @@ body {
     margin-left: 50%;
     margin-top: 50%;
     margin-bottom: 0;
+
+    border: 1px solid red;
     
 
 }
@@ -86,12 +90,10 @@ body {
 .info-artigo {
 
     border: 1px solid red;
-    
-
 
     margin-left: 40%;
 
-    margin-right: 30%;
+    margin-right: 39%;
 
 }
 
@@ -112,7 +114,23 @@ body {
 
     border: 1px solid red;
 
-    margin: 5% 25% 5% 25%;
+    margin: 3% 40% 3% 35%;
 
 
+}
+
+.previa-post {
+    color: white;
+    margin-left: 30%;
+    margin-right: 27%;
+    border: 1px solid red;
+
+}
+
+.inicio-tags {
+    margin-left: 32%;
+
+    margin-right: 25%;
+
+    color: rgb(221, 213, 213);
 }
