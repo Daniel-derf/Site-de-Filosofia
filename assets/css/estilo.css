@@ -82,6 +82,25 @@ body {
 
 }
 
+
+.info-artigo {
+
+    border: 1px solid red;
+    
+
+
+    margin-left: 40%;
+
+    margin-right: 30%;
+
+}
+
+.info-conteudo {
+    margin-left: 0;
+    margin-right: 5%;
+    color: rgb(221, 213, 213);
+}
+
 #postagem {
     border: 1px solid red;
     padding: 10px;
@@ -89,7 +108,11 @@ body {
     
 }
 
-#info-artigo {
-    color: grey;
-    margin-left: 50%;
+.img-postagem {
+
+    border: 1px solid red;
+
+    margin: 5% 25% 5% 25%;
+
+
 }
