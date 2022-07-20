@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Os Charás</title>
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
@@ -12,102 +11,60 @@
 
 <body>
 
+    <header id="cabecalho">
 
+        <img src="assets/img/logo.jpg" id="cabecalho-logo">
 
+        <nav id="navegacao-menu">
+            <a class="navegacao-menu-item" href="#">Página inicial</a>
+            <a class="navegacao-menu-item" href="#">Artigos</a>
+            <a class="navegacao-menu-item" href="#">Contato</a>
+            <a class="navegacao-menu-item" href="#">Psicologia</a>
+            <a class="navegacao-menu-item" href="#">Filosofia</a>
+            <a class="navegacao-menu-item" href="#">Economia</a>
+        </nav>
+    </header>
 
+    <main id="conteudo">
 
-    <nav id="navegacao" class="container-fluid">
+        <div id="conteudo-postagem">
 
-        <div class="row red-mark">
+            <a id="conteudo-postagem-area" href="#">Área</a>
 
-            <img src="assets/img/logo.jpg" id="logo" class="red-mark">
+          
+            <a id="conteudo-postagem-titulo" href="#">
 
-            <div class="col-3"></div>
+                Título postagem
 
-            <div class="blue-mark col-md-7 text-center" id="paginas">
-                <a href="index.html">Página inicial</a>
-                <a href="artigos.html">Artigos</a>
-                <a href="contato.html">Contato</a>
-                <a href="psicologia.html">Psicologia</a>
-                <a href="filosofia.html">Filosofia</a>
-                <a href="economia.html">Economia</a>
-            </div>
-
-        </div>
-
-
-
-    </nav>
-
-    <div id="area-principal">
-
-        <div id="postagem">
-
-            <a href="filosofia.html" class="tema-artigo">Filosofia</a>
-
-            <a href="artigo.html">
-
-                <div class="titulo-artigo">
-
-                    “Kurt Gödel”, de W. V. O. Quine
-
-                </div>
             </a>
 
-            <div class="info-artigo">
+            <div id="conteudo-postagem-informacoes">
 
-                <span class="info-conteudo">Por ALL</span>
-                <span class="info-conteudo">14/02/2022</span>
-                <span class="info-conteudo">Nenhum comentário</span>
+                <span class="conteudo-postagem-informacoes-autor">Por x</span>
+                <span class="conteudo-postagem-informacoes-data">00/00/0000</span>
+                <span class="conteudo-postagem-informacoes-comentarios">Comentários</span>
 
             </div>
 
-            <img class="img-postagem" src="assets/img/img-post.png">
+            <img id="conteudo-postagem-imagem" src="assets/img/img-post.png">
 
-            <div class="previa-post">
-                Traduzido por Gabriel Marculino Ferreira. 
-                <br>
-                <br>
-                [Retirado de W. V. Quine, 1982, ‘Theories and things’, Cambridge, MA: Harvard University Press,
-                Artigo Reimpresso do Anuário de 1978 da American Philosophical Society: 143 – 147];
+            <div id="conteudo-postagem-previa">
+                Conteúdo previa do post
             </div>
 
-            <div class="inicio-tags">
+            <div id="tags">
 
-                <span class="post-tags">
-                    Biografia
-                </span>
-                <span class="post-tags">
-                    Filosofia analítica
-                </span>
-                <span class="post-tags">
-                    Kurt Godel
-                </span>
-                <span class="post-tags">
-                    Marculino
-                </span>
-                <span class="post-tags">
-                    Matemática
-                </span>
-                <span class="post-tags">
-                    Teorema da incompletude
-                </span>
-                <span class="post-tags">
-                    Traduções
-                </span>
-                <span class="post-tags">
-                    W. V. O. Quine
-                </span>
+                Tags
 
             </div>
 
         </div>
 
-    </div>
+    </main>
 
     <footer>
 
-        <a href="https://www.youtube.com/channel/UCDN-jjXwzjd5n_5PBiNdzQA">Visite-nos no Youtube</a>
+        <button class="btn btn-primary">Visite-nos no Youtube</button>
 
 
     </footer>
