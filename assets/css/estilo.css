@@ -18,6 +18,13 @@
 
 }
 
+#navegacao-menu{
+
+    display: flex;
+    
+    
+}
+
 .navegacao-menu-item{
     color: rgb(71, 224, 30); 
     margin-inline-end: 20px;
@@ -28,6 +35,44 @@
     max-height: 120px;
 }
 
+
+
+#navegacao-menu-funcoes {
+
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+
+.funcao-menu {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(162, 162, 163);
+    margin-right: 50px;
+
+}
+
+.funcao-pesquisar{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(162, 162, 163); 
+   
+}
+
+
+
+.funcao-menu-img{
+    max-height: 40px;
+}
+
+.funcao-pesquisar-img{
+    max-height: 40px;
+}
 /*CONTEÚDO*/
 
 body{
