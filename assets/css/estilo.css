@@ -15,43 +15,36 @@
     padding: 20px;
     background-color: rgb(50, 50, 51);
     justify-content: space-around;
+    margin-bottom: 50px;
 
 }
-
+#cabecalho a {
+    text-decoration: none;
+}
 .navegacao {
     display: flex;
     flex-direction: row;
     align-items: center;
 
 }
-
 #navegacao-menu-funcoes {
     margin-left: 30px;
 }
-
-
-
 .navegacao-menu-item{
     color: rgb(71, 224, 30); 
     margin-inline-end: 20px;
 }
-
 #cabecalho-logo{
     max-width: 120px;
     max-height: 120px;
 
 }
-
-
-
 #navegacao-menu-funcoes {
 
     display: flex;
     flex-direction: row; 
     
 }
-
-
 .funcao-menu {
 
     display: flex;
@@ -61,7 +54,6 @@
     margin-right: 50px;
 
 }
-
 .funcao-pesquisar{
 
     display: flex;
@@ -70,28 +62,72 @@
     color: rgb(162, 162, 163); 
    
 }
-
-
-
 .funcao-menu-img{
     max-height: 40px;
 }
-
 .funcao-pesquisar-img{
     max-height: 40px;
 }
+
 /*CONTEÚDO*/
 
 body{
     background-color: rgb(26, 98, 36);
 }
 
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteudo-postagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteudo-postagem a:link {
+    text-decoration: none;
+}
+
+
+#conteudo-postagem-area {
+    color: rgb(71, 224, 30); 
+    text-decoration: underline !important;
+    margin-bottom: 20px;
+  
+}
+
+#conteudo-postagem-titulo {
+    color: white;
+    margin-bottom: 15px;
+}
+
+#conteudo-postagem-informacoes {
+   
+    color: rgb(171, 206, 175);
+
+    
+
+    margin-bottom: 30px;
+    
+}
+
+.conteudo-postagem-informacoes-elemento {
+    margin-right: 40px;
+}
+
+
+
+
+
 /*RODAPÉ*/
 
 
 
 
-
+/*MARCAÇÕES*/
 .red-mark {
     border: 1px solid red;
 
@@ -109,5 +145,15 @@ body{
 
 }
 
+/*
+LINK REF
+a:link — when the user has not visited, hovered, or clicked on a link
+
+a:visited — after the user has visited the link
+
+a:hover — when the user hovers their mouse over the link
+
+a:active — as the user is clicking on the link
+*/
 
 
