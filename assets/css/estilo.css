@@ -79,12 +79,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 #conteudo-postagem {
     display: flex;
     flex-direction: column;
     align-items: center;
+ 
 }
 
 #conteudo-postagem a:link {
@@ -95,7 +97,7 @@ body{
 #conteudo-postagem-area {
     color: rgb(71, 224, 30); 
     text-decoration: underline !important;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   
 }
 
@@ -105,24 +107,79 @@ body{
 }
 
 #conteudo-postagem-informacoes {
-   
-    color: rgb(171, 206, 175);
-
     
-
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: rgb(171, 206, 175);
     margin-bottom: 30px;
+  
     
 }
 
-.conteudo-postagem-informacoes-elemento {
+.conteudo-postagem-informacoes-elemento1 {
+    margin-right: 40px;
+    margin-left: 50px;
+}
+.conteudo-postagem-informacoes-elemento2 {
     margin-right: 40px;
 }
 
+.conteudo-postagem-parte2{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+#conteudo-postagem-imagem {
+    align-self: center;
+}
+
+#conteudo-postagem-previa {
+
+    margin-top: 60px;
+    color: white;
+ 
+}
+
+#tags {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+
+
+    margin-top: 20px;
+    color: rgb(171, 206, 175);
+ 
+}
+
+.tags-tag {
+    margin-right: 10px;
+   
+}
 
 
 
 
 /*RODAPÉ*/
+
+#rodape {
+
+    background-color: rgb(50, 50, 51); 
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    
+}
+
+#rodape-conteudo {
+    margin-left: 20%;
+}
 
 
 
