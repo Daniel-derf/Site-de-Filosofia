@@ -181,6 +181,26 @@ body{
     margin-left: 20%;
 }
 
+.rodape-conteudo-imagem-yt {
+    max-height: 80px;
+}
+
+#rodape-contato {
+    margin-top: 40px;
+    color: white;
+}
+
+#rodape-contato-twitter {
+    margin-top: 30px;
+}
+
+#rodape-contato-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-top: 50px;
+}
 
 
 
